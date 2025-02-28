@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to right, #4caf50, #ffeb3b); /* Gradien dari hijau keemasan */
+  font-family: Arial, sans-serif; /* Mengatur font untuk seluruh halaman */
+}
+
+img {
+  border: 5px solid white; /* Border putih di sekitar gambar */
+  border-radius: 50%; /* Membuat gambar menjadi oval */
+}
+
+/* Menambahkan border putih pada semua elemen teks */
+h1, h2, h4, p {
+  padding: 10px; /* Memberikan sedikit ruang di dalam border */
+  border-radius: 5px; /* Membuat sudut border sedikit melengkung */
+  display: inline-block; /* Agar border hanya mengelilingi teks */
+  margin: 10px 0; /* Memberikan jarak vertikal antar elemen */
+}
+
+/* Kelas khusus untuk border putih pada teks */
+.bordered-text {
+  border: 2px solid white; /* Border putih */
+}
+
+/* Gaya untuk tombol menu */
+.btn {
+  margin: 5px; /* Memberikan jarak antar tombol */
+}
+
+/* Gaya untuk dropdown menu */
+.dropdown-menu {
+  background-color: #ffffff; /* Warna latar belakang dropdown */
+}
+
+.dropdown-item {
+  color: #000; /* Warna teks item dropdown */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Warna latar belakang saat hover */
+}
+.gallery {
+  display: flex; /* Mengaktifkan Flexbox */
+  flex-wrap: wrap; /* Membungkus gambar jika diperlukan */
+  justify-content: center; /* Pusatkan gambar secara horizontal */
+}
+
+.gallery img {
+  margin: 10px; /* Tambahkan jarak antar gambar */
+  max-width: 100%; /* Pastikan gambar responsif */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}

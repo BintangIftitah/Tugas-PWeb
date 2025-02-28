@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri dan Prestasi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #4caf50, #ffeb3b); /* Gradien latar belakang */
+            font-family: Arial, sans-serif; /* Mengatur font untuk seluruh halaman */
+            padding: 20px; /* Memberikan padding di sekitar konten */
+        }
+        h1 {
+            text-align: center; /* Mengatur teks judul agar berada di tengah */
+            margin-bottom: 20px; /* Memberikan jarak di bawah judul */
+        }
+        h2 {
+            margin-top: 30px; /* Memberikan jarak di atas judul prestasi */
+        }
+        .prestasi-list {
+            list-style-type: none; /* Menghilangkan bullet point */
+            padding: 0; /* Menghilangkan padding default */
+        }
+        .prestasi-list li {
+            background: white; /* Latar belakang putih untuk setiap item */
+            border: 1px solid #ccc; /* Border abu-abu */
+            border-radius: 5px; /* Sudut melengkung */
+            padding: 10px; /* Memberikan padding di dalam item */
+            margin-bottom: 10px; /* Memberikan jarak antar item */
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Membuat grid responsif */
+            gap: 10px; /* Jarak antar gambar */
+        }
+        .gallery img {
+            width: 100%; /* Mengatur lebar gambar agar sesuai dengan kolom */
+            height: 150px; /* Mengatur tinggi gambar */
+            object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Galeri dan Prestasi</h1>
+        <div class="gallery">
+            <img src="src/gambar1.jpeg" alt="Gambar 1">
+            <img src="src/gambar2.jpeg" alt="Gambar 2">
+            <img src="src/gambar3.jpeg" alt="Gambar 3">
+            <img src="src/gambar4.jpeg" alt="Gambar 4">
+        </div>
+        <h2 class="mt-4">Prestasi</h2>
+        <ul class="prestasi-list">
+            <li>Prestasi 1: Juara Ranking 1 Tingkat SMP / MTS Kecamatan Tanah Merah - Indragiri Hilir</li>
+            <li>Prestasi 2: Juara Ranking 1 SMPN 1 Tanah merah </li>
+            <li>Prestasi 3: Juara 1 Lomba Jurnalistik Tingkat SMP sederajat Se-Sumatera</li>
+            <li>Prestasi 4: Penghargaan Peserta Pekan Raya Biologi UNRI</li>
+        </ul>
+        <div class="text-center">
+            <a href="index.html" class="btn btn-primary">Kembali ke Beranda</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
